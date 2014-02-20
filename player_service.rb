@@ -2,6 +2,8 @@ require 'sinatra'
 require 'json'
 require_relative 'player'
 
+set :port, 8090
+
 post "/" do
   if params[:action] == 'bet_request'
     Player.new.bet_request(JSON.parse(params[:game_state])).to_s

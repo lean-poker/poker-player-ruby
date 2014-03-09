@@ -11,7 +11,7 @@ post "/" do
     Player.new.showdown(JSON.parse(params[:game_state]))
     'OK'
   elsif params[:action] == 'version'
-    Player.VERSION
+    Player::VERSION
   else
     'OK'
   end

@@ -10,5 +10,7 @@ post "/" do
   elsif params[:action] == 'showdown'
     Player.new.showdown(JSON.parse(params[:game_state]))
     'OK'
+  elsif params[:action] == 'version'
+    Player.VERSION
   end
 end

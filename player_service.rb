@@ -12,5 +12,7 @@ post "/" do
     'OK'
   elsif params[:action] == 'version'
     Player.VERSION
+  else
+    'OK'
   end
 end

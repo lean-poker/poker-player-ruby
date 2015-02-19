@@ -1,3 +1,3 @@
-require_relative 'player'
+require_relative 'player_service'
 
 run Sinatra::Application

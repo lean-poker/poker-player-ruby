@@ -14,4 +14,4 @@ gem 'puma'
 # gem 'reel' # Removed - has unpatched CVE-2020-7659 vulnerability
 gem 'http'
 gem 'webrick', '>= 1.8.2'
-gem 'rack', '>= 2.2.18'
+gem 'rack', '>= 3.2.6'

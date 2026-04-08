@@ -1,34 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.9.0)
-      public_suffix (>= 2.0.2, < 8.0)
     base64 (0.3.0)
     daemons (1.4.1)
     diff-lcs (1.6.2)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
+    domain_name (0.6.20240107)
     eventmachine (1.2.7)
-    ffi (1.15.5)
-    ffi-compiler (1.0.1)
-      ffi (>= 1.0.0)
-      rake
-    http (5.1.0)
-      addressable (~> 2.8)
+    http (6.0.2)
       http-cookie (~> 1.0)
-      http-form_data (~> 2.2)
-      llhttp-ffi (~> 0.4.0)
-    http-cookie (1.0.5)
+      llhttp (~> 0.6.1)
+    http-cookie (1.1.4)
       domain_name (~> 0.5)
-    http-form_data (2.3.0)
-    llhttp-ffi (0.4.0)
-      ffi-compiler (~> 1.0)
-      rake (~> 13.0)
+    llhttp (0.6.1)
     logger (1.7.0)
     mustermann (3.0.4)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.7.5)
-    public_suffix (7.0.5)
     puma (7.2.0)
       nio4r (~> 2.0)
     rack (3.2.6)
@@ -69,9 +56,6 @@ GEM
       logger
       rack (>= 1, < 4)
     tilt (2.6.1)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.8.2)
     webrick (1.9.2)
 
 PLATFORMS
